@@ -1,0 +1,34 @@
+# .github/release.yml
+
+changelog:
+  categories:
+    - title: Breaking Changes
+      labels:
+        - breaking-change
+    - title: New Features
+      labels:
+        - feat
+    - title: Bug Fix
+      labels:
+        - fix
+    - title: Changes Build Process or Dependencies
+      labels:
+        - chore
+    - title: Technical Improvements
+      labels:
+        - refactor
+    - title: Build Changes
+      labels:
+        - build
+    - title: Documentation Changes
+      labels:
+        - docs
+    - title: Adding missing tests
+      labels:
+        - test
+    - title: Performance Improvement
+      labels:
+        - perf
+    - title: Other Changes
+      labels:
+        - "*"
